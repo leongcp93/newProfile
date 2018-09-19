@@ -1,0 +1,56 @@
+.darken_background{
+    background-color: rgba($color: #000000, $alpha: .4);
+}
+
+section{
+    padding: 10vh 5vw 0vh 5vw;
+    height: 70vh;
+    background-color: #2A3132;
+    color: whitesmoke;
+
+    .view_title{
+        padding-bottom: 3vh;
+
+    }
+
+    .view_content{
+        padding: 5vh 0vw 5vh 3vw;
+        font-size: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact_resume{
+        padding-top: 3vh;
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+
+        .view_contact{
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            font-size: 1.25rem;
+
+            a{
+                color: whitesmoke;
+            }
+
+            i{
+                font-size: 2rem;
+                color: #763626;
+                margin: 0vh 1vw 0vh 1vw;
+            }
+        }
+
+        .view_resume{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 30%;
+        }
+    }
+
+    
+}

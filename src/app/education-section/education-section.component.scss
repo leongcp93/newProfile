@@ -1,0 +1,80 @@
+.background_image{
+    background-image: url('../../assets/graduates.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+}
+
+.background_darken{
+    background-color: rgba($color: #000000, $alpha: .6);
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+section{
+    padding: 10vh 5vw 0vh 5vw;
+    width: 100vw;
+    height: 80vh;
+    
+    
+
+    .section_label{
+        font-size: 2.5rem;
+    }
+
+    .education_align{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 40vh;
+        margin-top: 5vh;
+
+        .education_container{
+
+            padding-left: 3vw;
+            padding-top: 5vh;
+            width: 35vw;
+            height: 40vh;
+            background-color: rgba($color: #000000, $alpha: .4);
+
+        }
+    
+    }
+
+    label{
+        font-size: 2rem;
+        color: whitesmoke;
+    }
+    
+    ul{
+        -webkit-padding-start: 0vh;
+        list-style-type: none;
+
+        li{
+            margin-bottom: 3vh;
+            color: whitesmoke;
+        }
+
+        .title{
+            font-size: 1.5rem;
+            
+        }
+    
+        .major{
+        
+            text-transform: uppercase;
+            
+    
+        }
+    }
+
+    
+
+    
+       
+}

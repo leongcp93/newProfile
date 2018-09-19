@@ -1,0 +1,105 @@
+.background_image{
+    background-image: url('../../assets/background2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+
+
+
+section{
+    padding: 5vh 5vw 0vh 5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: rgba($color: #000000, $alpha: .3);
+
+
+    .name_image{
+
+        width: 30vw;
+        height: 90vh;
+        background-color: rgba($color: #000000, $alpha: .5);
+        border-radius: 25px;
+        
+        h1{
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            padding-bottom: 3vh;
+            text-align: center;
+        }
+
+        h2{
+            text-transform: uppercase;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .image{
+            border-radius: 50%;
+            margin-left: 2vw;
+            padding-bottom: 3vh;
+
+        }
+    }
+
+    .skill_sets{
+
+        
+        height: 90vh;
+        width: 50vw;
+        padding: 5vh 5vw 5vh 5vw;
+        background-color: rgba($color: #000000, $alpha: .5);
+        border-radius: 25px;
+
+        .skill_title{
+            font-size: 2rem;
+            padding-bottom: 3vh;
+        }
+
+        .skill_list{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 5vh;
+
+            .skill_container{
+                display: flex;
+                flex-direction:column;
+                width: 10vw;
+                height: 20vh;
+                justify-content: center;
+                text-align: center;
+                font-size: 1.25rem;
+                background-color: #90AFC5;
+                color: whitesmoke;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: all .5s ease-in-out;
+
+                i{
+                    font-size: 3rem;
+                }
+
+                &:hover{
+                    background-color: #336B87;
+                    color: white;
+                }
+
+            }
+            
+            
+        }
+
+        
+        
+
+    }
+
+    
+}

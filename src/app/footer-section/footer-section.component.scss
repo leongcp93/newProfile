@@ -1,0 +1,13 @@
+section{
+    background-color: #2A3132;
+    color: whitesmoke;
+    height: 10vh;
+
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+}
