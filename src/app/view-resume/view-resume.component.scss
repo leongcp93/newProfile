@@ -39,9 +39,15 @@ section{
 
             i{
                 font-size: 2rem;
-                color: #763626;
+                color: whitesmoke;
                 margin: 0vh 1vw 0vh 1vw;
+                transition: all .2s ease-in-out;
+
+                &:hover{
+                    color: #90AFC5;
+                }
             }
+            
         }
 
         .view_resume{
